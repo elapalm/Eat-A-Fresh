@@ -1,0 +1,176 @@
+/*---Media Queries --*/
+@media screen and (min-width: 1400px) {
+    .container {
+      width: 1370px;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .container {
+      width: 1570px;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .container {
+      width: 1870px;
+    }
+  }
+body {
+    background-image: url("/images/backyard_garden.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden
+}
+.lead, h1 {
+    text-align: center;
+    font-size: 98px;
+    color: #990000 ;
+    font-family: 'Bangers', cursive;
+}
+h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #990000 ;
+    font-family: 'Bangers', cursive;
+}
+.btn-secondary{
+    text-align: center;
+    font-size: 24px;
+    background-color: #990000;
+    color: #FDF2E9;
+    font-family: 'Bangers', cursive;
+}
+#register #sign-in {
+    float: center;
+    background-color: #F4A460;
+}
+p {
+    text-align: center;
+    font-size: 24px;
+    color: #4d4d4d;
+    font-family: 'Bangers', cursive;
+}
+#cards {
+    color: #990000 ;
+    position: center;
+}
+.testCards, .purpCard {
+    text-align: center;
+    font-stretch: bold;
+    padding: 15px;
+}
+.head-container {
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+#harvest {
+    width: 50px;
+}
+.harvestBar {
+    font-family: 'Bangers', cursive;
+    color: #FDF2E9;
+}
+.navbar {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: #990000;
+    color: #FDF2E9;
+}
+.fourContainer {
+    width: 700px;
+    margin-right: 500px;
+    margin-left: 300px;
+}
+#logoIMG{
+    position: center;
+}
+#regModal {
+    height: 725px;
+    width: 900px;
+    margin-right: 350px;
+    margin-left: 350px;
+    background-color: #ffffff;
+    font-weight: bold;
+    opacity: 0.8;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+/* CSS for modals */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button:hover, .form button .form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #EF3B3A;
+}
